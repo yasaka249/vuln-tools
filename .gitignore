@@ -4,3 +4,5 @@ __pycache__/
 .venv/
 
 schema_tree.json
+
+dump*.json
