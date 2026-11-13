@@ -41,5 +41,5 @@ python3 sqli.py -u "http://target-url" -m data -D "public" -T "users" -C "userna
 ```
 
 ## Limitations / Roadmap
-- **Blind SQLi extraction engine**: CUrrently, 'schem' and 'data' mode rely on Boolean-based conditional responses. Support for Error-based and Time-based conditional extraction is planned.
+- **Blind SQLi extraction engine**: Currently, 'schema' and 'data' mode rely on Boolean-based conditional responses. Support for Error-based and Time-based conditional extraction is planned.
 - **Concurrent requests**: Implementing multi-threading('ThreadPoolExecutor') to accelerate character binary search extraction.
